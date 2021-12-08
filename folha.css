@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+h1{
+    text-align:center;
+    font-size:60px;
+    font-size:min(60px,7vw);
+    font-family:Open Sans Condensed;
+}
+
+h2{
+    text-align:center;
+    font-size:45px;
+    font-size:min(45px,5vw);
+    font-family:Yellowtail;
+}
+
+p{
+    font-size:30px;
+    font-size:min(30px,2vw);
+    font-family:Dancing Script;
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+    color:blueviolet;
+}
+
+body{
+    background-color:crimson;
+}
+
+div{
+    width:25%;
+    height:240px;
+    margin:auto;
+}
+
+ul{
+    list-style:none;
+}
+
+li:hover{
+    font-size:25px;
+    transition:0.5s;
+}
+
+#Santos{
+    font-size:17px;
+    height:130px;
+    width:60%;
+}
+
+.Santos2{
+    color:blue;
+}
